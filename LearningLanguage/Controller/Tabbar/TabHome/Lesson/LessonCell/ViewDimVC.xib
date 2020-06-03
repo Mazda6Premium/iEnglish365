@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewDimVC" customModule="LearningLanguage" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDIsmiss" destination="mg7-Si-UD4" id="N5a-ut-hUs"/>
+                <outlet property="imgOp1" destination="He6-ji-0d4" id="dXv-P2-mwh"/>
+                <outlet property="imgOp2" destination="R1D-DE-OZd" id="6G8-Jy-stV"/>
+                <outlet property="imgOp3" destination="Vbt-tg-Osg" id="g3s-Y5-zxQ"/>
+                <outlet property="lblOp1" destination="Gh8-fc-Rec" id="4rE-9r-eYY"/>
+                <outlet property="lblOp2" destination="7DC-3d-f3P" id="Hs6-5A-CjT"/>
+                <outlet property="lblOp3" destination="RQB-cu-poc" id="MfZ-v8-ZKl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewChoose" destination="GFg-Uv-YSi" id="Zjs-5j-f2s"/>
+                <outlet property="viewOp1" destination="6fs-hQ-0vP" id="cS9-bs-xZS"/>
+                <outlet property="viewOp2" destination="n7p-eD-Hld" id="eNH-nE-hs2"/>
+                <outlet property="viewOp3" destination="3wy-EF-kRG" id="PWS-du-1kq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GFg-Uv-YSi">
+                    <rect key="frame" x="72" y="314" width="270" height="278"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6fs-hQ-0vP">
+                            <rect key="frame" x="8" y="46" width="254" height="50"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="He6-ji-0d4">
+                                    <rect key="frame" x="8" y="7.5" width="35" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chọn đáp án đúng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gh8-fc-Rec">
+                                    <rect key="frame" x="53" y="15" width="129.5" height="20.5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="uxw-i4-ubf"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7p-eD-Hld">
+                            <rect key="frame" x="8" y="104" width="254" height="50"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R1D-DE-OZd">
+                                    <rect key="frame" x="8" y="7.5" width="35" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chọn Đúng - Sai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7DC-3d-f3P">
+                                    <rect key="frame" x="53" y="15" width="113" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="kkM-El-ELh"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3wy-EF-kRG">
+                            <rect key="frame" x="8" y="162" width="254" height="50"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vbt-tg-Osg">
+                                    <rect key="frame" x="8" y="7.5" width="35" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ghép cặp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQB-cu-poc">
+                                    <rect key="frame" x="53" y="15" width="67.5" height="20.5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="J6T-v3-t3x"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chọn dạng bài tập" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ei9-mv-f7O">
+                            <rect key="frame" x="8" y="8" width="254" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Esq-nD-rYz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mg7-Si-UD4">
+                            <rect key="frame" x="8" y="220" width="254" height="50"/>
+                            <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="wBp-dn-Wrc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                            <state key="normal" title="Huỷ">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="tapOnDismiss:" destination="-1" eventType="touchUpInside" id="vx3-ku-7Ht"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="n7p-eD-Hld" firstAttribute="leading" secondItem="GFg-Uv-YSi" secondAttribute="leading" constant="8" id="E0j-Yc-7Nk"/>
+                        <constraint firstAttribute="width" constant="270" id="EP8-Z3-T96"/>
+                        <constraint firstItem="Ei9-mv-f7O" firstAttribute="leading" secondItem="GFg-Uv-YSi" secondAttribute="leading" constant="8" id="NUH-lf-0DK"/>
+                        <constraint firstAttribute="trailing" secondItem="mg7-Si-UD4" secondAttribute="trailing" constant="8" id="OgJ-qF-RXX"/>
+                        <constraint firstItem="mg7-Si-UD4" firstAttribute="leading" secondItem="GFg-Uv-YSi" secondAttribute="leading" constant="8" id="QC1-vj-PoV"/>
+                        <constraint firstItem="3wy-EF-kRG" firstAttribute="leading" secondItem="GFg-Uv-YSi" secondAttribute="leading" constant="8" id="RKf-or-6HJ"/>
+                        <constraint firstItem="6fs-hQ-0vP" firstAttribute="top" secondItem="Ei9-mv-f7O" secondAttribute="bottom" constant="8" id="XqQ-ty-l7o"/>
+                        <constraint firstAttribute="trailing" secondItem="6fs-hQ-0vP" secondAttribute="trailing" constant="8" id="crj-9T-amY"/>
+                        <constraint firstItem="6fs-hQ-0vP" firstAttribute="leading" secondItem="GFg-Uv-YSi" secondAttribute="leading" constant="8" id="geL-wU-vDD"/>
+                        <constraint firstAttribute="trailing" secondItem="3wy-EF-kRG" secondAttribute="trailing" constant="8" id="guq-jb-jC0"/>
+                        <constraint firstItem="3wy-EF-kRG" firstAttribute="top" secondItem="n7p-eD-Hld" secondAttribute="bottom" constant="8" id="qAc-9p-V5g"/>
+                        <constraint firstItem="n7p-eD-Hld" firstAttribute="top" secondItem="6fs-hQ-0vP" secondAttribute="bottom" constant="8" id="rk1-Lj-qgy"/>
+                        <constraint firstAttribute="height" constant="278" id="rmH-lZ-F5h"/>
+                        <constraint firstItem="Ei9-mv-f7O" firstAttribute="top" secondItem="GFg-Uv-YSi" secondAttribute="top" constant="8" id="rqf-PX-NwP"/>
+                        <constraint firstItem="mg7-Si-UD4" firstAttribute="top" secondItem="3wy-EF-kRG" secondAttribute="bottom" constant="8" id="suQ-qO-csp"/>
+                        <constraint firstAttribute="trailing" secondItem="n7p-eD-Hld" secondAttribute="trailing" constant="8" id="tai-SV-W7B"/>
+                        <constraint firstAttribute="trailing" secondItem="Ei9-mv-f7O" secondAttribute="trailing" constant="8" id="v3h-Hr-1aQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GFg-Uv-YSi" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="0N2-rF-MXf"/>
+                <constraint firstItem="GFg-Uv-YSi" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="A81-E1-ohA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="104.46428571428571"/>
+        </view>
+    </objects>
+</document>

@@ -3,27 +3,88 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0107095223FC192600503B8F /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0107095123FC192600503B8F /* Tabbar.storyboard */; };
+		0141026A23FD1417000A39F7 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141026923FD1417000A39F7 /* Lesson.swift */; };
+		0141026F23FD14B1000A39F7 /* LessonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141026D23FD14B1000A39F7 /* LessonVC.swift */; };
+		0141027023FD14B1000A39F7 /* LessonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0141026E23FD14B1000A39F7 /* LessonVC.xib */; };
+		0141027423FD1566000A39F7 /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141027223FD1566000A39F7 /* LessonCell.swift */; };
+		0141027523FD1566000A39F7 /* LessonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0141027323FD1566000A39F7 /* LessonCell.xib */; };
+		014452BE23FCB3D300FA032B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014452BD23FCB3D300FA032B /* HomeVC.swift */; };
+		014452C023FCB40D00FA032B /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014452BF23FCB40D00FA032B /* Topic.swift */; };
+		014452C423FCB49600FA032B /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014452C323FCB49600FA032B /* HomeCell.swift */; };
+		01455A99241C8B000013DE20 /* PushLessonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01455A97241C8B000013DE20 /* PushLessonVC.swift */; };
+		01455A9A241C8B010013DE20 /* PushLessonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01455A98241C8B000013DE20 /* PushLessonVC.xib */; };
+		01455AAB241CC1880013DE20 /* UserPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01455AAA241CC1880013DE20 /* UserPhone.swift */; };
+		01455AAD241CC1990013DE20 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01455AAC241CC1990013DE20 /* User.swift */; };
+		01455AAF241CC5260013DE20 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01455AAE241CC5250013DE20 /* Extension.swift */; };
+		014589C32404E57700B6D6EF /* PuzzleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014589C12404E57700B6D6EF /* PuzzleVC.swift */; };
+		014589C42404E57700B6D6EF /* PuzzleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014589C22404E57700B6D6EF /* PuzzleVC.xib */; };
+		014589C82404E8AC00B6D6EF /* PuzzleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014589C62404E8AC00B6D6EF /* PuzzleCell.swift */; };
+		014589C92404E8AC00B6D6EF /* PuzzleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014589C72404E8AC00B6D6EF /* PuzzleCell.xib */; };
+		0146A16323FE6DCF0089E636 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146A16123FE6DCF0089E636 /* ResultVC.swift */; };
+		0146A16423FE6DCF0089E636 /* ResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0146A16223FE6DCF0089E636 /* ResultVC.xib */; };
+		0146B070248692E0000CA375 /* TabPuzzleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146B06F248692E0000CA375 /* TabPuzzleVC.swift */; };
+		0146B072248693A8000CA375 /* TabPairVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0146B071248693A8000CA375 /* TabPairVC.swift */; };
+		014702F72423591700E6E400 /* LessonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014702F62423591700E6E400 /* LessonDetail.swift */; };
 		016EBBF923FB93680090E23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016EBBF823FB93680090E23E /* AppDelegate.swift */; };
 		016EBBFB23FB93690090E23E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016EBBFA23FB93690090E23E /* SceneDelegate.swift */; };
-		016EBBFD23FB93690090E23E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016EBBFC23FB93690090E23E /* ViewController.swift */; };
-		016EBC0023FB93690090E23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016EBBFE23FB93690090E23E /* Main.storyboard */; };
 		016EBC0223FB936D0090E23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016EBC0123FB936D0090E23E /* Assets.xcassets */; };
 		016EBC0523FB936D0090E23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016EBC0323FB936D0090E23E /* LaunchScreen.storyboard */; };
+		016EBC1323FB948A0090E23E /* SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016EBC1123FB948A0090E23E /* SelectionVC.swift */; };
+		016EBC1423FB948A0090E23E /* SelectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016EBC1223FB948A0090E23E /* SelectionVC.xib */; };
+		016EBC1723FBADB10090E23E /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016EBC1623FBADB10090E23E /* Function.swift */; };
+		016EBC1B23FBBE0D0090E23E /* PairVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016EBC1923FBBE0D0090E23E /* PairVC.swift */; };
+		016EBC1C23FBBE0D0090E23E /* PairVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016EBC1A23FBBE0D0090E23E /* PairVC.xib */; };
+		01E80E8124069CDB009BD45B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01E80E8024069CDB009BD45B /* GoogleService-Info.plist */; };
+		01F4252C2407BA4A00CD7360 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4252B2407BA4A00CD7360 /* Puzzle.swift */; };
+		4C0B83C2ECC48093FF18AEE5 /* Pods_LearningLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94FAA6515C98EC9146DCC8 /* Pods_LearningLanguage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0107095123FC192600503B8F /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		0141026923FD1417000A39F7 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		0141026D23FD14B1000A39F7 /* LessonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonVC.swift; sourceTree = "<group>"; };
+		0141026E23FD14B1000A39F7 /* LessonVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonVC.xib; sourceTree = "<group>"; };
+		0141027223FD1566000A39F7 /* LessonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
+		0141027323FD1566000A39F7 /* LessonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonCell.xib; sourceTree = "<group>"; };
+		014452BD23FCB3D300FA032B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		014452BF23FCB40D00FA032B /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		014452C323FCB49600FA032B /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		01455A97241C8B000013DE20 /* PushLessonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushLessonVC.swift; sourceTree = "<group>"; };
+		01455A98241C8B000013DE20 /* PushLessonVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushLessonVC.xib; sourceTree = "<group>"; };
+		01455AAA241CC1880013DE20 /* UserPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPhone.swift; sourceTree = "<group>"; };
+		01455AAC241CC1990013DE20 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		01455AAE241CC5250013DE20 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		014589C12404E57700B6D6EF /* PuzzleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleVC.swift; sourceTree = "<group>"; };
+		014589C22404E57700B6D6EF /* PuzzleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PuzzleVC.xib; sourceTree = "<group>"; };
+		014589C62404E8AC00B6D6EF /* PuzzleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleCell.swift; sourceTree = "<group>"; };
+		014589C72404E8AC00B6D6EF /* PuzzleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PuzzleCell.xib; sourceTree = "<group>"; };
+		0146A16123FE6DCF0089E636 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		0146A16223FE6DCF0089E636 /* ResultVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultVC.xib; sourceTree = "<group>"; };
+		0146B06F248692E0000CA375 /* TabPuzzleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPuzzleVC.swift; sourceTree = "<group>"; };
+		0146B071248693A8000CA375 /* TabPairVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPairVC.swift; sourceTree = "<group>"; };
+		014702F62423591700E6E400 /* LessonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetail.swift; sourceTree = "<group>"; };
 		016EBBF523FB93680090E23E /* LearningLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016EBBF823FB93680090E23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016EBBFA23FB93690090E23E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		016EBBFC23FB93690090E23E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		016EBBFF23FB93690090E23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		016EBC0123FB936D0090E23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016EBC0423FB936D0090E23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016EBC0623FB936D0090E23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016EBC1123FB948A0090E23E /* SelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionVC.swift; sourceTree = "<group>"; };
+		016EBC1223FB948A0090E23E /* SelectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionVC.xib; sourceTree = "<group>"; };
+		016EBC1623FBADB10090E23E /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		016EBC1923FBBE0D0090E23E /* PairVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairVC.swift; sourceTree = "<group>"; };
+		016EBC1A23FBBE0D0090E23E /* PairVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PairVC.xib; sourceTree = "<group>"; };
+		01E5D3382484DF3F001B5DAA /* LearningLanguage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearningLanguage.entitlements; sourceTree = "<group>"; };
+		01E80E8024069CDB009BD45B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		01F4252B2407BA4A00CD7360 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		1B98EB213E533F7203C72887 /* Pods-LearningLanguage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningLanguage.release.xcconfig"; path = "Target Support Files/Pods-LearningLanguage/Pods-LearningLanguage.release.xcconfig"; sourceTree = "<group>"; };
+		444BFD8F97986678AC457800 /* Pods-LearningLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningLanguage.debug.xcconfig"; path = "Target Support Files/Pods-LearningLanguage/Pods-LearningLanguage.debug.xcconfig"; sourceTree = "<group>"; };
+		FA94FAA6515C98EC9146DCC8 /* Pods_LearningLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +92,116 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0B83C2ECC48093FF18AEE5 /* Pods_LearningLanguage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0141026B23FD147E000A39F7 /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				0141027123FD153C000A39F7 /* LessonCell */,
+				016EBC1023FB946C0090E23E /* SelectionVC */,
+				016EBC1823FBBDF40090E23E /* PairVC */,
+				014589C02404E54F00B6D6EF /* PuzzleVC */,
+				0141026D23FD14B1000A39F7 /* LessonVC.swift */,
+				0141026E23FD14B1000A39F7 /* LessonVC.xib */,
+			);
+			path = Lesson;
+			sourceTree = "<group>";
+		};
+		0141027123FD153C000A39F7 /* LessonCell */ = {
+			isa = PBXGroup;
+			children = (
+				0141027223FD1566000A39F7 /* LessonCell.swift */,
+				0141027323FD1566000A39F7 /* LessonCell.xib */,
+			);
+			path = LessonCell;
+			sourceTree = "<group>";
+		};
+		014452C123FCB47200FA032B /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0146B06E248692B2000CA375 /* TabPuzzle */,
+				0146B06D248692A0000CA375 /* TabPair */,
+				014452C223FCB47A00FA032B /* TabHome */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		014452C223FCB47A00FA032B /* TabHome */ = {
+			isa = PBXGroup;
+			children = (
+				01455A96241C8AB40013DE20 /* PushLessonVC */,
+				0141026B23FD147E000A39F7 /* Lesson */,
+				014452BD23FCB3D300FA032B /* HomeVC.swift */,
+				014452C323FCB49600FA032B /* HomeCell.swift */,
+			);
+			path = TabHome;
+			sourceTree = "<group>";
+		};
+		01455A96241C8AB40013DE20 /* PushLessonVC */ = {
+			isa = PBXGroup;
+			children = (
+				01455A97241C8B000013DE20 /* PushLessonVC.swift */,
+				01455A98241C8B000013DE20 /* PushLessonVC.xib */,
+			);
+			path = PushLessonVC;
+			sourceTree = "<group>";
+		};
+		014589C02404E54F00B6D6EF /* PuzzleVC */ = {
+			isa = PBXGroup;
+			children = (
+				014589C52404E88900B6D6EF /* PuzzleCell */,
+				014589C12404E57700B6D6EF /* PuzzleVC.swift */,
+				014589C22404E57700B6D6EF /* PuzzleVC.xib */,
+			);
+			path = PuzzleVC;
+			sourceTree = "<group>";
+		};
+		014589C52404E88900B6D6EF /* PuzzleCell */ = {
+			isa = PBXGroup;
+			children = (
+				014589C62404E8AC00B6D6EF /* PuzzleCell.swift */,
+				014589C72404E8AC00B6D6EF /* PuzzleCell.xib */,
+			);
+			path = PuzzleCell;
+			sourceTree = "<group>";
+		};
+		0146A16023FE6D8B0089E636 /* ResultVC */ = {
+			isa = PBXGroup;
+			children = (
+				0146A16123FE6DCF0089E636 /* ResultVC.swift */,
+				0146A16223FE6DCF0089E636 /* ResultVC.xib */,
+			);
+			path = ResultVC;
+			sourceTree = "<group>";
+		};
+		0146B06D248692A0000CA375 /* TabPair */ = {
+			isa = PBXGroup;
+			children = (
+				0146B071248693A8000CA375 /* TabPairVC.swift */,
+			);
+			path = TabPair;
+			sourceTree = "<group>";
+		};
+		0146B06E248692B2000CA375 /* TabPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				0146B06F248692E0000CA375 /* TabPuzzleVC.swift */,
+			);
+			path = TabPuzzle;
+			sourceTree = "<group>";
+		};
 		016EBBEC23FB93680090E23E = {
 			isa = PBXGroup;
 			children = (
 				016EBBF723FB93680090E23E /* LearningLanguage */,
 				016EBBF623FB93680090E23E /* Products */,
+				F43800022D398EEC8F1B32B1 /* Pods */,
+				66031A1237B7F7C1BE0BD373 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +216,93 @@
 		016EBBF723FB93680090E23E /* LearningLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				01E5D3382484DF3F001B5DAA /* LearningLanguage.entitlements */,
+				016EBC1523FBAD9F0090E23E /* Extension */,
+				016EBC0C23FB93740090E23E /* Model */,
+				016EBC0D23FB93820090E23E /* View */,
+				016EBC0E23FB93880090E23E /* Controller */,
 				016EBBF823FB93680090E23E /* AppDelegate.swift */,
 				016EBBFA23FB93690090E23E /* SceneDelegate.swift */,
-				016EBBFC23FB93690090E23E /* ViewController.swift */,
-				016EBBFE23FB93690090E23E /* Main.storyboard */,
 				016EBC0123FB936D0090E23E /* Assets.xcassets */,
 				016EBC0323FB936D0090E23E /* LaunchScreen.storyboard */,
 				016EBC0623FB936D0090E23E /* Info.plist */,
+				01E80E8024069CDB009BD45B /* GoogleService-Info.plist */,
 			);
 			path = LearningLanguage;
+			sourceTree = "<group>";
+		};
+		016EBC0C23FB93740090E23E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01455AAA241CC1880013DE20 /* UserPhone.swift */,
+				01455AAC241CC1990013DE20 /* User.swift */,
+				014452BF23FCB40D00FA032B /* Topic.swift */,
+				0141026923FD1417000A39F7 /* Lesson.swift */,
+				01F4252B2407BA4A00CD7360 /* Puzzle.swift */,
+				014702F62423591700E6E400 /* LessonDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		016EBC0D23FB93820090E23E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0107095123FC192600503B8F /* Tabbar.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		016EBC0E23FB93880090E23E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				014452C123FCB47200FA032B /* Tabbar */,
+				0146A16023FE6D8B0089E636 /* ResultVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		016EBC1023FB946C0090E23E /* SelectionVC */ = {
+			isa = PBXGroup;
+			children = (
+				016EBC1123FB948A0090E23E /* SelectionVC.swift */,
+				016EBC1223FB948A0090E23E /* SelectionVC.xib */,
+			);
+			path = SelectionVC;
+			sourceTree = "<group>";
+		};
+		016EBC1523FBAD9F0090E23E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				016EBC1623FBADB10090E23E /* Function.swift */,
+				01455AAE241CC5250013DE20 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		016EBC1823FBBDF40090E23E /* PairVC */ = {
+			isa = PBXGroup;
+			children = (
+				016EBC1923FBBE0D0090E23E /* PairVC.swift */,
+				016EBC1A23FBBE0D0090E23E /* PairVC.xib */,
+			);
+			path = PairVC;
+			sourceTree = "<group>";
+		};
+		66031A1237B7F7C1BE0BD373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA94FAA6515C98EC9146DCC8 /* Pods_LearningLanguage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43800022D398EEC8F1B32B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				444BFD8F97986678AC457800 /* Pods-LearningLanguage.debug.xcconfig */,
+				1B98EB213E533F7203C72887 /* Pods-LearningLanguage.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 016EBC0923FB936D0090E23E /* Build configuration list for PBXNativeTarget "LearningLanguage" */;
 			buildPhases = (
+				0C42CDB09BD71EE4A487E845 /* [CP] Check Pods Manifest.lock */,
 				016EBBF123FB93680090E23E /* Sources */,
 				016EBBF223FB93680090E23E /* Frameworks */,
 				016EBBF323FB93680090E23E /* Resources */,
+				D5DFE17163FAF5536A9374D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +366,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				016EBC0523FB936D0090E23E /* LaunchScreen.storyboard in Resources */,
+				014589C92404E8AC00B6D6EF /* PuzzleCell.xib in Resources */,
 				016EBC0223FB936D0090E23E /* Assets.xcassets in Resources */,
-				016EBC0023FB93690090E23E /* Main.storyboard in Resources */,
+				0141027023FD14B1000A39F7 /* LessonVC.xib in Resources */,
+				016EBC1423FB948A0090E23E /* SelectionVC.xib in Resources */,
+				016EBC1C23FBBE0D0090E23E /* PairVC.xib in Resources */,
+				014589C42404E57700B6D6EF /* PuzzleVC.xib in Resources */,
+				01E80E8124069CDB009BD45B /* GoogleService-Info.plist in Resources */,
+				0107095223FC192600503B8F /* Tabbar.storyboard in Resources */,
+				0141027523FD1566000A39F7 /* LessonCell.xib in Resources */,
+				01455A9A241C8B010013DE20 /* PushLessonVC.xib in Resources */,
+				0146A16423FE6DCF0089E636 /* ResultVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C42CDB09BD71EE4A487E845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearningLanguage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DFE17163FAF5536A9374D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearningLanguage/Pods-LearningLanguage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearningLanguage/Pods-LearningLanguage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearningLanguage/Pods-LearningLanguage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		016EBBF123FB93680090E23E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016EBBFD23FB93690090E23E /* ViewController.swift in Sources */,
+				014589C32404E57700B6D6EF /* PuzzleVC.swift in Sources */,
+				01455AAD241CC1990013DE20 /* User.swift in Sources */,
+				014589C82404E8AC00B6D6EF /* PuzzleCell.swift in Sources */,
+				01F4252C2407BA4A00CD7360 /* Puzzle.swift in Sources */,
+				014452C023FCB40D00FA032B /* Topic.swift in Sources */,
+				0146B072248693A8000CA375 /* TabPairVC.swift in Sources */,
+				014452BE23FCB3D300FA032B /* HomeVC.swift in Sources */,
 				016EBBF923FB93680090E23E /* AppDelegate.swift in Sources */,
+				014452C423FCB49600FA032B /* HomeCell.swift in Sources */,
+				014702F72423591700E6E400 /* LessonDetail.swift in Sources */,
+				016EBC1B23FBBE0D0090E23E /* PairVC.swift in Sources */,
+				01455AAB241CC1880013DE20 /* UserPhone.swift in Sources */,
 				016EBBFB23FB93690090E23E /* SceneDelegate.swift in Sources */,
+				016EBC1323FB948A0090E23E /* SelectionVC.swift in Sources */,
+				0146A16323FE6DCF0089E636 /* ResultVC.swift in Sources */,
+				0141027423FD1566000A39F7 /* LessonCell.swift in Sources */,
+				016EBC1723FBADB10090E23E /* Function.swift in Sources */,
+				0146B070248692E0000CA375 /* TabPuzzleVC.swift in Sources */,
+				01455AAF241CC5260013DE20 /* Extension.swift in Sources */,
+				0141026F23FD14B1000A39F7 /* LessonVC.swift in Sources */,
+				01455A99241C8B000013DE20 /* PushLessonVC.swift in Sources */,
+				0141026A23FD1417000A39F7 /* Lesson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		016EBBFE23FB93690090E23E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				016EBBFF23FB93690090E23E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		016EBC0323FB936D0090E23E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +584,14 @@
 		};
 		016EBC0A23FB936D0090E23E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 444BFD8F97986678AC457800 /* Pods-LearningLanguage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LearningLanguage/LearningLanguage.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J3K999PRZ;
 				INFOPLIST_FILE = LearningLanguage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +599,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NguyenQuocViet.LearningLanguage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		016EBC0B23FB936D0090E23E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B98EB213E533F7203C72887 /* Pods-LearningLanguage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LearningLanguage/LearningLanguage.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J3K999PRZ;
 				INFOPLIST_FILE = LearningLanguage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +620,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NguyenQuocViet.LearningLanguage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
